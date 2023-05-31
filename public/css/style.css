@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --color1: #0B0C0E;
+    --color2: #101114;
+    --color3: #191B1F;
+    --color4: #24272D;
+    --color5: #30343B;
+    --color6: #40454F;
+    --color7: #505663;
+    --color8: #67707F;
+    --color9: #8C96A6;
+    --color10: #B5BDC9;
+    --color11: #DFE2E7;
+    --color12: #F3F4F6;
+    --purple: #7D39D3;
+
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans', 'Arial', sans-serif;
+}
+
+body{
+    background-color: var(--color1);
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container button{
+    background-color: var(--color11);
+    color: var(--color3);
+
+    padding: 1rem 3rem;
+    border: 0;
+    border-radius: 50px;
+
+    transition: 200ms;
+}
+.container button:hover{
+    cursor: pointer;
+
+    background-color: var(--purple);
+    color: var(--color11);
+
+    padding: 1rem 3rem;
+    border: 0;
+    border-radius: 50px;
+
+    transition: 200ms;
+}
